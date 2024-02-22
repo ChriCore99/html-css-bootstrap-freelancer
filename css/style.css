@@ -30,6 +30,10 @@ header section {
     background-color: #1BBC9B;
 }
 
+.col-12 img {
+    width: 260px;
+}
+
 /* about */
 .about {
     background-color: #1BBC9B;
@@ -48,7 +52,7 @@ footer section {
 /* DEBUG */
 
 .debug header .col,
-.debug .information .col-4,
+.debug .information .col,
 .debug footer .col-12 {
     color: white;
 }
