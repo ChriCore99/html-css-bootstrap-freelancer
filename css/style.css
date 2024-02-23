@@ -49,6 +49,20 @@ footer section {
     background-color: #2D3E50;
 }
 
+.star-bootstrap, .about {
+    color: white;
+}
+
+.fa-solid {
+    font-size: 40px;
+}
+
+.divisorio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* DEBUG */
 
 .debug header .col,
