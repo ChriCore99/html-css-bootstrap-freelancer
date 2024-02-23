@@ -17,7 +17,9 @@
             <div class="container">
                 <div class="row pt-2 pb-2">
                     <div class="col col-6">STAR BOOTSTRAP</div>
-                    <div class="col col-6 d-sm-none text-end">burgher</div>
+                    <div class="col col-6 d-sm-none text-end">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                     <div class="col col-6 d-none d-sm-flex column-gap-4 justify-content-end">
                         <div>PORTFOLIO</div>
                         <div>ABOUT</div>
@@ -33,15 +35,17 @@
         <!-- introduzione -->
         <section class="star-bootstrap">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
+                <div class="row pt-5">
+                    <div class="col-12 text-center pb-3">
                         <img src="./img/avatar.svg" alt="">
                     </div>
                     <div class="col-12 text-center"><h1>START BOOTSTRAP</h1></div>
-                    <div class="divisorio col-12 text-center">
-                        <i class="fa-solid fa-star"></i>
+                    <div class="divisorio col-12 text-center pb-3">
+                        <div class="star-wrapper">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <div class="col-12 text-center">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+                    <div class="col-12 text-center pb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
                 </div>
             </div>
         </section>
@@ -49,9 +53,11 @@
         <!-- foto varie -->
             <div class="container">
                 <div class="row row-gap-4">
-                    <div class="col-12 text-center"><h1>PORTFOLIO</h1></div>
+                    <div class="col-12 text-center pt-5"><h2 class="fs-1">PORTFOLIO</h2></div>
                     <div class="divisorio col-12 text-center">
-                        <i class="fa-solid fa-star"></i>
+                        <div class="star-wrapper">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4">
                         <img src="./img/cabin.png" class="rounded" alt="">
@@ -75,42 +81,54 @@
             </div>
 
         <!-- about -->
-        <section class="about">
+        <section class="about mt-5 mb-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center"><h1>ABOUT</h1></div>
-                    <div class="divisorio col-12 text-center">
-                        <i class="fa-solid fa-star"></i>
+                <div class="row ms-5 me-5">
+                    <div class="col-12 text-center pt-5"><h2 class="fs-1">ABOUT</h2></div>
+                    <div class="divisorio col-12 text-center pb-4">
+                        <div class="star-wrapper">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore architecto iste saepe veniam dolorum, 
+                    <div class="col-sm-12 col-md-6 pb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore architecto iste saepe veniam dolorum, 
                         et unde libero doloribus quibusdam maxime corporis fugiat ipsa dolor, illum sed cumque repellat! Nisi inventore sit deleniti 
                         sint iste ratione perspiciatis, ex nam beatae suscipit autem a facere obcaecati quia qui. Error quasi necessitatibus ducimus.</div>
-                    <div class="col-sm-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime blanditiis repellendus officiis aperiam odio 
+                    <div class="col-sm-12 col-md-6 pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime blanditiis repellendus officiis aperiam odio 
                         pariatur maiores, perferendis est earum ea? Adipisci non maiores placeat temporibus quo veritatis iste atque qui nemo dolore ea molestias 
                         beatae quaerat animi dolorum odit, officiis voluptas et explicabo velit amet aliquam tenetur inventore. Eveniet, distinctio!</div>
-                    <div class="col-12 text-center">download button</div>
+                    <div class="col-12 text-center pb-4">
+                        <i class="bottone-scarica fa-solid fa-download fs-6"> <span>Download</span></i>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- contact me -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center"><h1>CONTACT ME</h1></div>
+        <div class="container mb-5">
+            <div class="row ms-5 me-5">
+                <div class="col-12 text-center"><h2 class="fs-1">CONTACT ME</h2></div>
                 <div class="divisorio col-12 text-center">
-                    <i class="fa-solid fa-star"></i>
+                    <div class="star-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                 </div>
                 <div class="col-12">
-                    <input type="name" placeholder="Name">
+                    <input type="name" placeholder="Name" class="contatti w-100 border-top-0 border-start-0 border-end-0 mb-2">
                 </div>
                 <div class="col-12">
-                    <input type="email" placeholder="Email address">
+                    <input type="email" placeholder="Email address" class="contatti w-100 border-top-0 border-start-0 border-end-0 mb-2">
                 </div>
                 <div class="col-12">
-                    <input type="tel" placeholder="Phone number">
+                    <input type="tel" placeholder="Phone number" class="contatti w-100 border-top-0 border-start-0 border-end-0 mb-2">
                 </div>
-                <div class="col-12">Message</div>
-                <div class="col-12">send button</div>
+                <div class="col-12">
+                    <textarea name="Message" placeholder="Message" id="" cols="30" rows="10" class="contatti w-100 border-top-0 border-start-0 border-end-0 mb-2"></textarea>
+                </div>
+                <div class="col-12">
+                    <div class="button">
+                        Send
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -118,9 +136,23 @@
         <section class="information">
             <div class="container">
                 <div class="row">
-                    <div class="col col-12 col-md-4 text-center">location</div>
-                    <div class="col col-12 col-md-4 text-center">around the web</div>
-                    <div class="col col-12 col-md-4 text-center">about freelancer</div>
+                    <div class="col col-12 col-md-4 text-center">
+                        <h5 class="pb-3 pt-5">LOCATION</h5>
+                        <P class="pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem in dolorum, quo blanditiis dolor et.</P>
+                    </div>
+                    <div class="col col-12 col-md-4 text-center">
+                        <h5 class="pb-3 pt-5">AROUND THE WEB</h5>
+                        <ul class="pb-3">
+                            <li><i class="social fa-brands fa-facebook-f"></i></li>
+                            <li><i class="social fa-brands fa-google-plus-g"></i></li>
+                            <li><i class="social fa-brands fa-twitter"></i></li>
+                            <li><i class="social fa-brands fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col col-12 col-md-4 text-center">
+                        <h5 class="pb-3 pt-5">ABOUT FREELANCER</h5>
+                        <div class="pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ipsam, labore blanditiis necessitatibus dolores at!</div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -132,10 +164,11 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">copyright info</div>
+                    <div class="col-12 text-center pt-4 pb-4">Copyright @ Your Website 2019</div>
                 </div>
             </div>
         </section>
+
     </footer>
     
 </body>

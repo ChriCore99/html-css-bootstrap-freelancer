@@ -54,13 +54,70 @@ footer section {
 }
 
 .fa-solid {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .divisorio {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.button {
+    height: 35px;
+    width: 60px;
+    background-color: #1BBC9B;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.star-wrapper {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+    column-gap: 15px;
+    align-items: center;
+}
+
+
+.star-wrapper::after, 
+.star-wrapper::before {
+    content: "";
+    border-top: 3px solid currentColor;
+    flex-grow: 1;
+}
+
+.contatti:focus-visible {
+    outline: none;
+}
+
+.about i span {
+    font-size: 10px;
+}
+
+.bottone-scarica {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.information ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.social {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
 }
 
 /* DEBUG */
